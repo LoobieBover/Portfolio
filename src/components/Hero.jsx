@@ -41,12 +41,11 @@ const Hero = () => {
               transition={{ delay: 0.6 }}
             >
               <a href="#contact" className="btn-primary">
-                Get in Touch
+                Resume
               </a>
               <div className="flex gap-4 items-center">
-                {/* GitHub Link */}
                 <a 
-                  href="https://github.com/Deadly108" 
+                  href="https://github.com/LoobieBover" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-2xl text-gray-600 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"
@@ -55,7 +54,7 @@ const Hero = () => {
                 </a>
                 {/* LinkedIn Link */}
                 <a 
-                  href="https://www.linkedin.com/in/om-patole-a52aa02b6/" 
+                  href="https://www.linkedin.com/in/Jhon-Wick/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-2xl text-gray-600 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"
@@ -64,7 +63,7 @@ const Hero = () => {
                 </a>
                 {/* Gmail Link */}
                 <a 
-                  href="https://mail.google.com/mail/?view=cm&fs=1&to=ompatole3030@gmail.com&su=Hello%20Om&body=I%20would%20like%20to%20connect%20with%20you!"
+                  href="https://mail.google.com"
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="text-2xl text-gray-600 hover:text-indigo-500 dark:text-gray-400 dark:hover:text-purple-400 transition-colors"
