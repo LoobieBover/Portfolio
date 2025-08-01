@@ -13,22 +13,24 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
+//comment
   const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (!element) return;
-    
-    const navbarHeight = 64; // Height of the fixed navbar
-    const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
-    const offsetPosition = elementPosition - navbarHeight;
-
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
     setMobileMenuOpen(false);
-  };
+    setTimeout(() => {
+      const element = document.getElementById(sectionId);
+      if (!element) return;
+      
+      const navbarHeight = 64; // Height of the fixed navbar
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - navbarHeight;
 
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }, 100); // Delay to allow menu to close before scrolling
+  };
+//comment
   return (
     <motion.nav
       initial={{ y: -100 }}
