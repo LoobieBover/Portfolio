@@ -28,7 +28,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         top: offsetPosition,
         behavior: 'smooth'
       });
-    }, 100); // Delay to allow menu to close before scrolling
+    }, 100);
   };
 //comment
   return (
