@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
+import Resume from '../assets/Resume.pdf';
 
 const Hero = () => {
   return (
@@ -66,7 +67,7 @@ const Hero = () => {
                   transition={{ delay: 0.6 }}
                 >
                   <a
-                  href="#contact"
+                  href={Resume}
                   className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-lg py-3 px-6 rounded-lg shadow-lg transition-colors duration-200"
                   >
                   Resume
